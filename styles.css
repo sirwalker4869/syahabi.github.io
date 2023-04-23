@@ -1,0 +1,47 @@
+.data-diri {
+  background-image: url(img/gray.jpg);
+}
+
+.syahabi {
+  color: orange;
+}
+
+.kolom-satu {
+  margin: 20px 0 0px;
+}
+
+.web-develop {
+  color: rgb(221, 2, 2);
+}
+
+.tombol {
+  background-color: purple;
+  width: 150px;
+  height: 50px;
+  border-radius: 50px;
+}
+
+svg {
+  margin: 20px 5px;
+}
+
+.gambar {
+  background-color: orange;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* media query */
+
+@media (max-width: 575.98px) {
+  .kolom-dua {
+    order: 1;
+    text-align: center;
+  }
+  .kolom-satu {
+    order: 2;
+    text-align: center;
+  }
+}
